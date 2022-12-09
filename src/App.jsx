@@ -9,16 +9,15 @@ import Portfolio from './components/portfolio/Portfolio';
 
 function App() {
   return (
-    <div>
-      App
-      <About />
-      <Contact />
-      <Experience />
-      <Footer />
+    <>
       <Header />
       <Nav />
+      <About />
+      <Experience />
       <Portfolio />
-    </div>
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
